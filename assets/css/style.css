@@ -28,7 +28,7 @@ body{
 
 #posts h1{
 	font-weight: 600;
-	font-size: 55px;
+	font-size: 45px;
 	line-height: 87px;
 	color: #8200C7;
 	margin: 0.5em 0;
@@ -44,7 +44,7 @@ body{
 	font-size: 22px;
 	line-height: 120%;
 	color: #8200C7;
-	margin: 10px 25px;
+	margin: 15px 25px 10px;
 }
 #posts .item > p{
 	font-size: 16px;
@@ -52,10 +52,11 @@ body{
 	font-weight: 400;
 	text-align: center;
 	color: #111111;
-	padding: 1em;
+	padding: 0 1em;
 }
 #posts .item > .footer{
-	margin: 1em;
+    margin: 1em;
+    padding: 0px 0px 3em;
 }
 #posts .item > .footer > a{
 	background: #8200C7;
@@ -66,6 +67,45 @@ body{
 }
 #posts .item img{
 	max-width: 100%;
+}
+#news{
+	background: #8200C7;
+	padding:1em 2em 0;
+	color: #FFF;
+	z-index: 9999999;
+	box-shadow: -3px 3px 5px rgba(0,0,0,0.3);
+}
+#news h2{
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+#news p{
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+#news input{
+	padding: 15px;
+	color:#111;
+	margin: 10px 0;
+	border:none;
+	border-radius: 0;
+	font-weight: 400;
+}
+#news button{
+	padding: 12px 40px;
+	text-transform: uppercase;
+	background-color: #FFC019;
+	border-radius: 8px;
+	color: #FFF;
+	font-size:16px;
+	font-weight: 400;
+	text-decoration: none;
+	border: none;
+}
+#news img{
+	position: relative;
+	bottom: 0;
+	margin-top: 2em;
 }
 #about{
 	background-color:#8200C7;
