@@ -1,0 +1,17 @@
+#cabecalho{
+	width: 100%;
+	height:1937.36px;
+}
+#esquerda{
+	float:left;
+	background-color: yellow;
+	min-height: 1769.01px;
+	width: 1348px;
+}
+#direita{
+	float: right;
+	background-color: red;
+	margin-left: 31.36px;
+	min-height: 1069.68px;
+	width: 558px;
+}
