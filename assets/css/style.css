@@ -55,13 +55,17 @@ body{
 	color: #8200C7;
 	margin: 15px 25px 10px;
 }
-#posts .item > p{
+#posts .item > p, #posts .text{
 	font-size: 16px;
 	line-height: 150%;
 	font-weight: 400;
 	text-align: center;
 	color: #111111;
 	padding: 0 1em;
+}
+#posts .text{
+	margin-bottom: 1em;
+	text-align: left;
 }
 #posts .item > .footer{
     margin: 1em;
@@ -159,3 +163,10 @@ body{
 #about .endpage .social img{
 	max-width: 50px;
 }
+
+/*#post p{
+	font-size: 17px;
+	line-height: 150%;
+	color: #303030;
+	font-weight: 400;
+}*/
