@@ -1,0 +1,112 @@
+body{
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 120%;
+	background-color: #E5E5E5;
+}
+.carousel-caption{
+	bottom:250px;
+	text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+}
+.carousel-caption h1{
+	font-size: 38px;
+}
+.carousel-caption h3{
+	font-size: 67px;
+}
+.menu-top{
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	z-index: 999999;
+}
+.menu-top > header > .logo {
+	text-align: center;
+	margin-top: 7em;
+}
+
+#posts h1{
+	font-weight: 600;
+	font-size: 55px;
+	line-height: 87px;
+	color: #8200C7;
+	margin: 0.5em 0;
+}
+
+#posts .item{
+	background-color: #E0E0E0;
+	text-align: center;
+	margin-bottom: 3em;
+}
+#posts .item > h2{
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 120%;
+	color: #8200C7;
+	margin: 10px 25px;
+}
+#posts .item > p{
+	font-size: 16px;
+	line-height: 150%;
+	font-weight: 400;
+	text-align: center;
+	color: #111111;
+	padding: 1em;
+}
+#posts .item > .footer{
+	margin: 1em;
+}
+#posts .item > .footer > a{
+	background: #8200C7;
+	border-radius: 32px;
+	padding: 8px 30px;
+	color: #FFFF;
+	margin-bottom: 3em;
+}
+#posts .item img{
+	max-width: 100%;
+}
+#about{
+	background-color:#8200C7;
+	margin-top: 4em;
+	color: #FFF;
+}
+#about .image{
+	padding:0;
+}
+#about .preview{
+	padding: 5em;
+}
+#about .preview h2{
+	font-size: 50px;
+	line-height: 120%;
+}
+#about .preview p{
+	font-size: 17px;
+	color: #FFFFFF;
+	line-height: 150%;
+	color: #FFFFFF;
+	font-weight: 400;
+}
+#about .endpage{
+	text-align: center;
+	background-color: #FFFFFF;
+}
+#about .endpage .logo{
+	text-align: center;
+}
+#about .endpage .logo img{
+	margin: 2em 0;
+}
+#about .endpage ul{
+	padding-left: 0px;
+	float: right;
+	margin-right: 20em;
+}
+#about .endpage ul > li{
+	display: inline-block; margin: 3em; float: left;
+}
+#about .endpage .social img{
+	max-width: 50px;
+}
