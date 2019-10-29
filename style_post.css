@@ -1,0 +1,111 @@
+#cabecalho{
+	position: absolute;
+	width: 100%;
+	height: 1140px;
+	background-image:url(slide1.png);
+	left: 0px;
+	top: 0px;
+	color: white;
+	font-family: IBM Plex Sans;
+}
+#logo{
+	position: absolute;
+	width: 230.22px;
+	height: 88px;
+	left: 41.78px;
+	top: 49.06px;
+}
+#acao{
+	position: absolute;
+	width: 363px;
+	height: 54px;
+	left: 900px;
+	top: 79.06px;
+}
+#acao2{
+	position: absolute;
+	width: 300.71px;
+	height: 54px;
+	left: 50.15px;
+	top: 400.52px;
+}
+#introducao{
+	position: absolute;
+	top: 450px;
+	width: 500px;
+	height: 174px;
+	left: 100px;
+}
+#line{
+	width: 500px;
+	border: 1.5px solid #FFFFFF;
+	position: absolute;
+	top: 525px;
+	left: 100px;
+}
+#titulo_geral{
+	position: absolute;
+	top: 550px;
+	width: 500px;
+	height: 174px;
+	left: 100px;
+}
+#esquerda{
+	background-color: white;
+	float: left;
+	width: 70%;
+	position: absolute;
+	height: 1769.01px;
+	left: 0px;
+	top: 772.17px;
+	
+}
+#direita{
+	background-color: #8A2BE2;
+	float: right;
+	width: 30%;
+	position: absolute;
+	height: 1069.68px;
+	left: 70%;
+	top: 1180px;
+}
+#foto_mao{
+	position: absolute;
+	width: 300.71px;
+	height: 400.16px;
+	left: 50.15px;
+	top: 500.52px;
+}
+#paragrafo{
+	position: absolute;
+	width: 90%;
+	height: 555px;
+	left: 10px;
+	top: 50px;
+	margin: 20px 50px 20px 20px;
+	font-family: IBM Plex Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 19px;
+	line-height: 150%;
+	text-align: justify;
+	/* or 31px */
+	color: #303030;
+}
+#foto2{
+	position: absolute;
+	width: 90%;
+	height: 443px;
+	left: 60px;
+	top: 600.18px;
+}
+.titulo{
+	color: white;
+	text-align: justify;
+	width: 80%;
+	margin: 80px 30px 30px 30px;
+	font-family: IBM Plex Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+}
