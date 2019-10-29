@@ -1,3 +1,9 @@
+@media(max-width: 768px){
+	.menu-top > header > .logo {
+		text-align: center;
+		margin: 1em;
+	}
+}
 body{
 	font-family: 'IBM Plex Sans', sans-serif;
 	font-style: normal;
@@ -24,6 +30,9 @@ body{
 .menu-top > header > .logo {
 	text-align: center;
 	margin-top: 7em;
+}
+.menu-top > header > .logo img{
+	max-width: 100%;
 }
 
 #posts h1{
@@ -56,7 +65,7 @@ body{
 }
 #posts .item > .footer{
     margin: 1em;
-    padding: 0px 0px 3em;
+    padding: 1em 0px 2em;
 }
 #posts .item > .footer > a{
 	background: #8200C7;
