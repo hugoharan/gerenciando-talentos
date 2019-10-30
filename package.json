@@ -1,5 +1,5 @@
 {
-  "name": "API Gerenciando Talentos",
+  "name": "api-gerenciando-talentos",
   "version": "1.0.0",
   "description": "API simples para captura de Leads para o blog gerenciando talentos.",
   "main": "app.js",
