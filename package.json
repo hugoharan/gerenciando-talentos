@@ -2,7 +2,7 @@
   "name": "gerenciando-talentos",
   "version": "1.0.0",
   "description": "Blog Gerenciando Talentos - Gama Experience #28",
-  "main": "index.js",
+  "main": "admin/index.js",
   "engines": {
     "node": "12.13.0"
   },
