@@ -7,8 +7,8 @@
     "node": "12.13.0"
   },
   "scripts": {
-    "start": "node index.js",
-    "build": "node index.js"
+    "start": "nodemon admin/index.js",
+    "build": "nodemon admin/index.js"
   },
   "author": "Hugo H Marinho",
   "license": "ISC",
