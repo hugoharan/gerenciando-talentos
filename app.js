@@ -34,11 +34,21 @@ app.get('/', function (req, res) {
 
 // create user
 app.post('/api/createLead', function(req, res) {
-   // var userEmail = req.body.user_email;
       var data = req.body;
+      var email = req.body.email;
+      email = email.split('@');
+      if (email[1] == "gmail.com" || email[1] == "hotmail.com"
+        || email[1] == "@outlook.com" || email[1] == "@live.com"
+        || email[1] == "@yahoo.com" || email[1] == "@yahoo.com.br"
+        || email[1] == "@bol.com.br"
+        || email[1] == "@uol.com"){
+        data.tipo = "B2C";
+      }else
+        data.tipo = "B2B";
+
       var date = new Date();
 
-      data.cadastro = dateFormat(new Date(), "yyyy-mm-dd HH:MM:ss").toLocaleString('pt-br', {timezone: 'Brazil/brt'});
+      data.cadastro = dateFormat(new Date(), "yyyy-mm-dd HH:MM:ss").toLocaleString('pt-br', {timezone: 'America/Sao_Paulo'});
       data.ip = getIP(req).clientIp;
 
       leadsRef.push(data, function(err) {
