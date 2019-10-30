@@ -33,7 +33,7 @@ app.use(bodyParser.json());                                     // parse applica
 app.use(bodyParser.json({ type: 'application/vnd.api+json' })); // parse application/vnd.api+json as json
 
 app.get('/', function (req, res) {
-  res.send('API Gerenciando Talentos')
+  res.json({message: "Server is up!", result: true});
 })
 
 // create user
@@ -72,4 +72,4 @@ app.post('/api/getLeads', function(req, res) {
   }
 });
 
-app.listen( process.env.PORT || 3000);
+app.listen(3000);
