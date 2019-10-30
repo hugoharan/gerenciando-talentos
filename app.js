@@ -47,9 +47,9 @@ app.post('/api/createLead', function(req, res) {
       }else
         data.tipo = "B2B";
 
-      
       var date = dateFormat(new Date().toLocaleString('pt-br', {timezone: 'America/Sao_Paulo'}), "yyyy-mm-dd HH:MM:ss");
       //data.cadastro = dateFormat(new Date(), "yyyy-mm-dd HH:MM:ss");
+
       data.cadastro = date;
       data.ip = getIP(req).clientIp;
 
