@@ -1,0 +1,54 @@
+@media only screen and (max-width: 800px)
+{
+    .menu-top > header > .logo img {
+    max-width: 50%;
+    margin-top: -15%;
+}
+    .banner_posts{
+        z-index: 99999
+    margin-top: -50px !important;
+    background: #E5E5E5;
+    padding: 25px;
+}
+    #about .preview {
+    padding: 2em !important;
+}
+	#posts h1 {
+	margin-bottom: 7% !important;
+    margin-top: 7% !important;
+    font-weight: 600;
+    text-align: center;
+    font-size: 25px !important;
+    line-height: 100% !important;
+    color: #8200C7;
+    margin: 0.5em 0;
+}
+#about .preview h2 {
+    font-size: 20px;
+    text-align: center !important;
+    line-height: 120%;
+}
+	#about .preview p {
+    margin-top: 12% !important;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: justify;
+    line-height: 150%;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+#about .endpage ul {
+    padding-left: 0px !important;
+    text-align: center !important;
+    margin-right: 0em !important;
+    float: none !important;
+}
+
+#about .endpage ul > li {
+    display: inline-block !important;
+    margin: 0em !important;
+   float: none !important;
+    
+}
+}

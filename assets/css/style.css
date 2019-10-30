@@ -1,9 +1,4 @@
-@media(max-width: 768px){
-	.menu-top > header > .logo {
-		text-align: center;
-		margin: 1em;
-	}
-}
+
 body{
 	font-family: 'IBM Plex Sans', sans-serif;
 	font-style: normal;
@@ -16,10 +11,10 @@ body{
 	text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
 }
 .carousel-caption h1{
-	font-size: 38px;
+	font-size: 32px;
 }
 .carousel-caption h3{
-	font-size: 67px;
+	font-size: 45px;''
 }
 .menu-top{
 	position: absolute;
@@ -32,9 +27,17 @@ body{
 	margin-top: 7em;
 }
 .menu-top > header > .logo img{
-	max-width: 100%;
+	max-width: 50%;
+	margin-top: -5%
 }
-
+.banner_posts{
+	margin-top: -190px;
+    background: #E5E5E5;
+    padding: 25px;
+}
+#h1_inicial{
+	font-size: 35px !important;
+}
 #posts h1{
 	font-weight: 600;
 	font-size: 45px;
@@ -50,7 +53,7 @@ body{
 }
 #posts .item > h2{
 	font-weight: 600;
-	font-size: 22px;
+	font-size: 20px;
 	line-height: 120%;
 	color: #8200C7;
 	margin: 15px 25px 10px;
@@ -59,10 +62,20 @@ body{
 	font-size: 16px;
 	line-height: 150%;
 	font-weight: 400;
-	text-align: center;
+	text-align: justify !important;
+	color: #111111; 
+	padding: 0 1em;
+}
+
+li{
+	font-size: 16px;
+	line-height: 150%;
+	font-weight: 400;
+	text-align: justify !important;
 	color: #111111;
 	padding: 0 1em;
 }
+
 #posts .text{
 	margin-bottom: 1em;
 	text-align: left;
@@ -104,7 +117,7 @@ body{
 	border-radius: 0;
 	font-weight: 400;
 }
-#news button{
+#news button, #news .link-download{
 	padding: 12px 40px;
 	text-transform: uppercase;
 	background-color: #FFC019;
@@ -114,6 +127,10 @@ body{
 	font-weight: 400;
 	text-decoration: none;
 	border: none;
+}
+
+#news .link-download{
+	padding: 5px 10px;
 }
 #news img{
 	position: relative;
@@ -133,12 +150,14 @@ body{
 	padding: 5em;
 }
 #about .preview h2{
-	font-size: 50px;
+	font-size: 35px;
+	text-align: center;
 	line-height: 120%;
 }
 #about .preview p{
 	font-size: 17px;
 	color: #FFFFFF;
+	text-align: justify;
 	line-height: 150%;
 	color: #FFFFFF;
 	font-weight: 400;
@@ -156,13 +175,13 @@ body{
 #about .endpage ul{
 	padding-left: 0px;
 	float: right;
-	margin-right: 20em;
+	margin-right: 15em;
 }
 #about .endpage ul > li{
 	display: inline-block; margin: 3em; float: left;
 }
 #about .endpage .social img{
-	max-width: 50px;
+	max-width: 35px;
 }
 
 /*#post p{
@@ -171,3 +190,5 @@ body{
 	color: #303030;
 	font-weight: 400;
 }*/
+
+
