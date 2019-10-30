@@ -39,10 +39,10 @@ app.post('/api/createLead', function(req, res) {
       var email = req.body.email;
       email = email.split('@');
       if (email[1] == "gmail.com" || email[1] == "hotmail.com"
-        || email[1] == "@outlook.com" || email[1] == "@live.com"
-        || email[1] == "@yahoo.com" || email[1] == "@yahoo.com.br"
-        || email[1] == "@bol.com.br" || email[1] == "@bol.com"
-        || email[1] == "@uol.com" || email[1] == "@uol.com"){
+        || email[1] == "outlook.com" || email[1] == "live.com"
+        || email[1] == "yahoo.com" || email[1] == "yahoo.com.br"
+        || email[1] == "bol.com.br" || email[1] == "bol.com"
+        || email[1] == "uol.com" || email[1] == "uol.com"){
         data.tipo = "B2C";
       }else
         data.tipo = "B2B";
