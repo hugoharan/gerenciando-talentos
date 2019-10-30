@@ -1,2 +1,1 @@
-# gerenciando-talentos
-Blog Gerenciando Talentos - Gama Experience #28
+# tutorial-nodejs-coderules

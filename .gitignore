@@ -1,7 +1,2 @@
-/vendor
-/node_modules
-/admin/config.json
-Homestead.yaml
-Homestead.json
+node_modules/
 .env
-/public/files

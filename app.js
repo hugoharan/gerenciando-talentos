@@ -1,11 +1,9 @@
+require('dotenv').config();
+
 var express  = require('express');
 var app = express();
 var Firebase = require('firebase');
-var morgan = require('morgan');
 var bodyParser = require('body-parser');
-var methodOverride = require('method-override');
-var multer = require('multer');
-var fs = require("fs");
 var getIP = require('ipware')().get_ip;
 
 
@@ -25,15 +23,12 @@ Firebase.initializeApp({
 var db = Firebase.database();
 var leadsRef = db.ref("leads");
 
-// app.use(express.static(__dirname + '/public'));                 // set the static files location /public/img will be /img for users
-// app.use('/public/uploads',express.static(__dirname + '/public/uploads'));
-app.use(morgan('dev'));                                         // log every request to the console
 app.use(bodyParser.urlencoded({'extended':'true'}));            // parse application/x-www-form-urlencoded
 app.use(bodyParser.json());                                     // parse application/json
 app.use(bodyParser.json({ type: 'application/vnd.api+json' })); // parse application/vnd.api+json as json
 
 app.get('/', function (req, res) {
-  res.json({message: "Server is up!", result: true});
+  res.send("Server is up!");
 })
 
 // create user
@@ -44,16 +39,17 @@ app.post('/api/createLead', function(req, res) {
 
       data.cadastro = date.toLocaleString('pt-br', {timezone: 'Brazil/brt'});
       data.ip = getIP(req);
-    leadsRef.push(data, function(err) {
-      if (err) {
-        res.send(err)
-      } else {
-        // var key = Object.keys(snapshot.val())[0];
-        // console.log(key);
-        res.json({message: "Success: Lead Save.", result: true});
-      }
-    });
-});
+
+      leadsRef.push(data, function(err) {
+        if (err) {
+          res.send(err)
+        } else {
+          // var key = Object.keys(snapshot.val())[0];
+          // console.log(key);
+          res.json({message: "Success: Lead Save.", result: true});
+        }
+      });
+  });
 
 // get users
 app.post('/api/getLeads', function(req, res) {
@@ -72,4 +68,4 @@ app.post('/api/getLeads', function(req, res) {
   }
 });
 
-app.listen(3000);
+app.listen(process.env.PORT || 3000)
