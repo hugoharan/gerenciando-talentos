@@ -5,6 +5,7 @@ var app = express();
 var Firebase = require('firebase');
 var bodyParser = require('body-parser');
 var getIP = require('ipware')().get_ip;
+var dateFormat = require('dateformat');
 
 
 app.use(function(req, res, next) {
@@ -37,8 +38,8 @@ app.post('/api/createLead', function(req, res) {
       var data = req.body;
       var date = new Date();
 
-      data.cadastro = date.toLocaleString('pt-br', {timezone: 'Brazil/brt'});
-      data.ip = getIP(req);
+      data.cadastro = dateFormat(new Date(), "yyyy-mm-dd HH:MM:ss").toLocaleString('pt-br', {timezone: 'Brazil/brt'});
+      data.ip = getIP(req).clientIp;
 
       leadsRef.push(data, function(err) {
         if (err) {
