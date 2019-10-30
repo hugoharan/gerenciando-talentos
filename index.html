@@ -156,10 +156,10 @@
 					<div class="form" id="news">
 						<h2>Excepteru sint occaecat cupidatat</h2>
 						<p>Lorem ipsuLorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget felis porta, vehicula enim eu, lobortis arcu.</p>
-						<form action="">
+						<form>
 							<input class="form-control" type="text" placeholder="Digite seu nome completo">
 							<input  class="form-control" type="text" placeholder="Digite seu email">
-							<button type="submit" class="btn-block">Call to action</button>
+							<a href="" class="captura-lead" class="btn-block">Call to action</a>
 						</form>
 						<img src="assets/img/ebook.png" class="img-responsive" alt="">
 					</div>
@@ -197,5 +197,26 @@
 <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$(".captura-lead").click(function(){
+			debugger;
+			var data = {};
+			data.nome = "Hugo Teste";
+			data.email = "hugoharan@gmail.com";
+			
+			$.ajax({
+				method: "POST",
+				url: "https://gerenciando-talentos.firebaseapp.com/api/createLead",
+				data: data
+			}).done(function(data) {
+				console.log(data);
+				debugger;
+
+
+			});
+		});
+	});
+</script>
 </body>
 </html>

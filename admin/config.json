@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "gerenciando-talentos",
+  "private_key_id": "dff702d52b82adfbbb3ae1767ea9328d5ef2f21a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDLO6FGemR8f6n2\naNUDzBl3V35qeiDhfEEQXOaKWZWDdTl/xVlq09RfT/etQ3xNkkmpsV2svVFBk7Lc\nWQAxBPAkxdHYO8G2YFXu4h0s1PwLIRuiqY7eDXIX+/ddiW3rgNKodtTw0Ncv05sS\nE3n2LZM9KWFPFsuZxC9RH/zfCAXw8Urg8q4XQDWYeL2N8UYxiuDPWPG/KYz7uoZD\nLK5BEZY9F63uo0wYSXpY8z+b4ba9LMED8NEYpMK5OGHszUYb4AOrXyvV6s8TBv/v\nSSfu4ui/VCAyX11FENkLqn01SCNQZAjGnQ/1XKT1zbquELKOn3XLqv1F5lqk5WqD\nwZAFhUfPAgMBAAECggEAZY67RVpVC6fKGaICTH75/Nqih/fWpYcvhks+Q0WIAuSZ\n4qEOUWVge26dIJ6YJ7ViDSPeYTtLtx7lItpwz44dqOqXtdwKraXPW2vv017tQmx9\ngFgF1i3W5WhakQnjfWtnGZskRuC9n585HxvPdvcIXGhowZptDL5uPLZk6Vj7iw5M\n0swwwmzsUqLaAWj9NhoZovbQZ6+zjluWGXuwQ0jyhp2sFrYKXjzepoUECiLuKhZI\n6lQ8x+RPhdKvc9jQ+fuxaW/6ikFSqkQ4CvhXECYQe1MUF2v22ciJ4xGsLHyCjaYz\nBntb4JZdyzRP1T7LQmKREOUiYFb71v3LmM0OKIqYhQKBgQDssT2V2Z0R0y4ZHWms\nsFy147wE7klJYbibv36rUy0Rr9W7wfZ9ZJu7O+RRvJOFhnWrUIVzesFTOcdhQwyv\nWtXOhydh0l26/p37Yf5DsaVQLFqWw1XqcCfAGwTX8w/iGl19QTyFrgYkwlBbC/xA\nWZt/a6rXGbRJPiGeOnScetUIvQKBgQDbz6svscuQHdUXKpaAal8/iXbWkqkPI055\nqjsB0Mjj7+rPK9lt/iUIk+XFzjXIFXxiNj/4H/YNW/12abTLZwzcvC34o9KERnJ7\nTRPYN4aD2jO2AnqlpcKBBXmJZeAKYchdL1FVXMwdcBLrLCIlLYY6TOT8tEEDM8Mo\nBF2vCpg5ewKBgQDjqdO/2BHxfDwh4h2sAfMa7RMDdyO81qbYAEhZiGaYVZXyxC1Q\nDT6RyJjjWcxXqa5y+r9yBQgBAllZn0GLRYbT4UIrIEoRvCi/DFGiUTPeOttjmj2A\ngyJo8FQnVt7XL17vRJlvR6UXJGRgPtYCG26rECfCQDIeJQn3BOj3Plq8zQKBgFbI\nDFvOJAIH5SM6SyTz2hrpmKNqT5iMZeUe0iELXuSuydN1Cmikl9ZlHagUm6Mc6HiV\n1neNlsT7dnwTi69qRee326Z4dxqF/Zi0e4s3kMHpmdTX8bgIU1xA3xThxawTotk3\nXzMGageNQcrbJ7fp2z6VMSqbt7cd7oSUBLCgzCyVAoGAejkoY3xObuWAXiTyR+UE\nZqyJb7W3XYAsOI6HvKP4+0H4forIkfs6d2uCdWzOosSgKPPgKXkethsdm0XYxiO3\n6HD5PqrYhXR3K8btEgu1RK3aVTONPZxpDcJToMc0DKPIGJ08dd84zqo9LjFhN1+i\nLjlFcnlBAXOAeqRPse4Xw1I=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-0q3ps@gerenciando-talentos.iam.gserviceaccount.com",
+  "client_id": "106252252340771017025",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-0q3ps%40gerenciando-talentos.iam.gserviceaccount.com"
+}
