@@ -854,6 +854,7 @@
       "resolved": "https://registry.npmjs.org/invert-kv/-/invert-kv-1.0.0.tgz",
       "version": "1.0.0"
     },
+    "ipware": "^2.0.0",
     "is-fullwidth-code-point": {
       "integrity": "sha1-754xOG8DGn8NZDr4L95QxFfvAMs=",
       "requires": {

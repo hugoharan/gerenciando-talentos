@@ -6,6 +6,8 @@ var bodyParser = require('body-parser');
 var methodOverride = require('method-override');
 var multer = require('multer');
 var fs = require("fs");
+var getIP = require('ipware')().get_ip;
+
 
 app.use(function(req, res, next) {
     res.setHeader("Access-Control-Allow-Origin", "*");
@@ -41,7 +43,7 @@ app.post('/api/createLead', function(req, res) {
       var date = new Date();
 
       data.cadastro = date.toLocaleString('pt-br', {timezone: 'Brazil/brt'});
-      data.ip = req.connection.remoteAddress;
+      data.ip = getIP(req);
     leadsRef.push(data, function(err) {
       if (err) {
         res.send(err)
