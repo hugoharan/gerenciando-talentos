@@ -1,4 +1,5 @@
 require('dotenv').config();
+//date_default_timezone_set('America/Sao_Paulo');
 
 var express  = require('express');
 var app = express();
@@ -46,8 +47,8 @@ app.post('/api/createLead', function(req, res) {
       }else
         data.tipo = "B2B";
 
+      
       var date = new Date();
-      date_default_timezone_set('America/Sao_Paulo');
       data.cadastro = dateFormat(new Date(), "yyyy-mm-dd HH:MM:ss").toLocaleString('pt-br', {timezone: 'America/Sao_Paulo'});
       data.ip = getIP(req).clientIp;
 
