@@ -19,7 +19,7 @@ app.use(function(req, res, next) {
 
 Firebase.initializeApp({
     databaseURL: "https://gerenciando-talentos.firebaseio.com/",
-    serviceAccount: './config.json', //this is file that I downloaded from Firebase Console
+    serviceAccount: './app.json', //this is file that I downloaded from Firebase Console
 });
 
 var db = Firebase.database();

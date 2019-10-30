@@ -2,14 +2,14 @@
   "name": "gerenciando-talentos",
   "version": "1.0.0",
   "description": "Blog Gerenciando Talentos - Gama Experience #28",
-  "main": "admin/index.js",
+  "main": "index.js",
   "engines": {
     "node": "12.13.0",
     "npm": "6.12.0"
   },
   "scripts": {
-    "start": "nodemon admin/index.js",
-    "build": "nodemon admin/index.js"
+    "start": "nodemon index.js",
+    "build": "nodemon index.js"
   },
   "author": "Hugo H Marinho",
   "license": "ISC",
