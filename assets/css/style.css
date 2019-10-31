@@ -9,7 +9,7 @@ body{
 	bottom:5em;
 	text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
 }
-.carousel-caption hr{
+.carousel-caption hr, #topo-interno hr{
 	width: 60%;
 }
 .carousel-caption h3{
@@ -34,11 +34,7 @@ body{
 	max-width: 50%;
 	/*margin-top: -5%*/
 }
-.banner_posts{
-	margin-top: -190px;
-    background: #E5E5E5;
-    padding: 25px;
-}
+
 #h1_inicial{
 	font-size: 32px !important;
 }
@@ -57,6 +53,7 @@ body{
 }
 #posts .item > h2{
 	margin: 10px;
+	text-align: center;
 }
 #posts .item > h2 > a{
 	font-weight: 600;
@@ -66,11 +63,11 @@ body{
 	/*margin: 15px 25px 10px;*/
 	text-decoration: none;
 }
-#posts .item > p, #posts .text{
+#posts .item > p{
 	font-size: 16px;
 	line-height: 150%;
 	font-weight: 400;
-	text-align: center; !important;
+	text-align: center;
 	color: #111111; 
 	padding: 0 1em;
 }
@@ -96,8 +93,9 @@ li{
 	background: #8200C7;
 	border-radius: 32px;
 	padding: 8px 30px;
-	color: #FFFF;
+	color: #FFFFFF;
 	margin-bottom: 3em;
+	text-decoration: none;
 }
 #posts .item img{
 	max-width: 100%;
@@ -136,6 +134,7 @@ li{
 	font-weight: 400;
 	text-decoration: none;
 	border: none;
+	text-shadow: 1px 1px 2px rgba(0,0,0,1);
 }
 
 #news .link-download{
@@ -159,7 +158,7 @@ li{
 }
 
 #about .image img{
-	max-width: 100%;
+	max-width: 100% !important;
 }
 
 #about .preview{
@@ -202,3 +201,18 @@ li{
 	max-width: 35px;
 }
 
+#topo-interno{
+	background: url('../../assets/img/bg2.jpg');
+    text-align: center;
+    padding-top: 2em;
+}
+
+#topo-interno img{
+	max-width: 100%;
+}
+
+#topo-interno h1{
+	font-size: 35px;
+    line-height: 1.5;
+    font-weight: 600;color:#FFF;margin: 2em 0 0; text-shadow: 2px 2px 3px rgba(0,0,0,0.8);
+}

@@ -6,8 +6,7 @@
   <meta name="format-detection" content="telephone=no" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <!-- MUDAR ESSAS TAGS DE ACORDO COM OS ARIGOS ENVIADOS PELO GURPO -->
+
   <title> Como a geração Z trabalha? | Blog - Gerenciando Talentos</title>
   <meta name="description" content="Quer entender como a nova geração Z pensa e trabalha? Clique aqui e descubra!" />
   <meta name="robots" content="index,follow" />
@@ -32,10 +31,12 @@
 
   <!--Fonte -->
   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600,700&display=swap" rel="stylesheet">
-  <link rel="shortcut icon" href="favicon.ico" />
-  <link rel="stylesheet" href="../assets/css/style_responsive.css">
-  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="shortcut icon" href="../favicon.ico" />
 
+    <!-- Estilos customizados -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/style_responsive.css">
+  <link rel="stylesheet" href="../assets/css/post.css">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -45,41 +46,41 @@
   <![endif]-->
 </head>
 <body>
-  <div class="container menu-top">
-    <header>
-      <div class="col-md-12 logo">
-        <a href="/"><img src="../assets/img/logo-bca.png" alt="Gerenciando talentos"></a>
-      </div>
-    </header>
-  </div>
-
-  <div class="slider">
-    <div id="carousel" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img src="../assets/img/bg3.jpg" alt="...">
-          <div class="carousel-caption" style="text-align: left; width: 50%;">
-            <!-- MUDAR TÍTULO E SUBTÍTULO -->
-            <h1>Qual é a chave para uma comunicação interna eficaz?</h1>
-            <hr/>
-            
-          </div>
+  <div id="topo-interno">
+    <div class="container" >
+      <header>
+        <div class="col-md-12 logo">
+          <a href="/"><img src="../assets/img/logo-bca.png" alt="Gerenciando talentos"></a>
+          <h1>Como a geração Z trabalha?</h1>
+          <hr/>
         </div>
-      </div>
+      </header>
     </div>
   </div>
 
-
-   <div class="content" id="posts">
+  <div class="content" id="posts">
     <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+      <div class="form visible-sm visible-xs" id="news" style="margin-top:1em;">
+              <h2>e-Book GRATUITO!</h2>
+              <p>Ter uma equipe alinhados com a cultura da empresa e engajada com a entrega é fundamental. Saiba como no e-book exclusivo que preparamos para você!</p>
+              <form class="leads">
+                <input class="form-control" type="text" name="nome" required placeholder="Digite seu nome completo">
+                <input  class="form-control" type="email" name="email" required placeholder="Digite seu email">
+                <button type="submit" class="btn-block">Clique e garanta o seu!</button>
+              </form>
+            <img src="../assets/img/ebook.png" alt="e-Book Gratuito!">
+        </div>
+        </div>
+      </div>
       <div class="row">
         <div class="col-md-9 banner_posts">
           <div class="row">
-            <div class="col-md-12">
-              <!-- COLOCAR CONTEÚDO AQUI -->
+            <div class="col-md-12 conteudo-posts">
 
-              <center><img src="../assets/img/post_02.jpg" alt="conjunto-de-jovens-geracao-z-interagindo" class="img-responsive"></br></br>
-              
+              <center><img src="../assets/img/posts/post_02.jpg" alt="conjunto-de-jovens-geracao-z-interagindo" class="img-responsive"></br></br>
+
               <p class="text">Fonte: BRG Educacional</p>
 
               <h2> Entenda as características mais marcantes da Geração Z e entenda como eles interagem no ambiente de trabalho.</h2>
@@ -91,13 +92,9 @@
               <h2> Como a Geração Z busca oportunidades?</h2>
               <p class="text">Quanto a busca por oportunidades eles preferem textos mais concisos, embora humanizados e despretensiosos. Eles também são socialmente empáticos e preferem nomenclaturas sem gênero definido como “pessoa desenvolvedora de software” e estão atentos para empresas que se digam a favor de inclusão e diversidade. Eles são naturalmente visionários e curiosos, então ao contratá-los tenha o cuidado de ensinar e treinar muito bem, pois a geração que não conhece o mundo sem a internet, valoriza muito a comunicação direta e sem máscaras.</p>
 
-            
-                           
-              <!-- CONTEÚDO ATÉ AQUI -->
             </div>
           </div>
           <div class="row">
-            <!-- ALTERAR DAQUI PRA BAIXO, NA MEDIDA QUE FOR ADICIONANDO NOVOS POSTS -->
         <div class="col-md-12">
           <h1>Últimos Posts</h1>
         </div>
@@ -105,8 +102,8 @@
           <div class="row">
         <div class="col-md-4">
           <div class="item">
-            <img src="../assets/img/post_04.jpg" alt="" class="img-responsive">
-            <h2>Feedback: 5 passos para ser mais assertivo</h2>
+            <img src="../assets/img/posts/post_04.jpg" alt="" class="img-responsive">
+            <h2><a href="/posts/herois-gestores-de-pessoas.html">Feedback: 5 passos para ser mais assertivo</a></h2>
             <p>Já sentiu dificuldades em fornecer feedback para alguém? Conheça 5 passos para melhorar em seus feedbacks. Clique e confira!</p>
             <div class="footer">
               <a href="/posts/feedback-mais-assertivo.html">Leia Mais</a>
@@ -115,8 +112,8 @@
         </div>
         <div class="col-md-4">
           <div class="item">
-            <img src="../assets/img/post_01.jpg" alt="" class="img-responsive">
-            <h2>O que os super-heróis ensinam para os gestores de pessoas?</h2>
+            <img src="../assets/img/posts/post_01.jpg" alt="" class="img-responsive">
+            <h2><a href="/posts/herois-gestores-de-pessoas.html">O que os super-heróis ensinam para os gestores de pessoas?</a></h2>
                 <p>Quais os poderes ocultos dos super heróis e como isso melhora a gestão de pessoas</p>
             <div class="footer">
               <a href="/posts/herois-gestores-de-pessoas.html">Leia Mais</a>
@@ -125,8 +122,8 @@
         </div>
         <div class="col-md-4">
           <div class="item">
-            <img src="../assets/img/post_05.jpg" alt="" class="img-responsive">
-            <h2>6 filmes de animações que ensinam sobre carreira</h2>
+            <img src="../assets/img/posts/post_05.jpg" alt="" class="img-responsive">
+            <h2><a href="/posts/animaçoes-ensinam-sobre-carreira.html">6 filmes de animações que ensinam sobre carreira</a></h2>
             <p>Quer aprender como os filmes de animações podem te ensinar sobre a vida profissional? Preparamos 6 cases para você. Clique e veja agora!</p>
             <div class="footer">
               <a href="/posts/animaçoes-ensinam-sobre-carreira.html">Leia Mais</a>
@@ -135,72 +132,76 @@
         </div>
       </div>
         </div>
-        <div class="col-md-3">
-          <div class="form" id="news" style="margin-top:1em;">
-            <h2>e-Book GRATUITO!</h2>
-            <p>Ter uma equipe alinhados com a cultura da empresa e engajada com a entrega é fundamental. Saiba como no e-book exclusivo que preparamos para você!</p>
-            <form id="leads">
-        <input class="form-control" type="text" name="nome" required placeholder="Digite seu nome completo">
-        <input  class="form-control" type="email" name="email" required placeholder="Digite seu email">
-        <button type="submit" class="btn-block">Clique e garanta o seu!</button>
-      </form>
-            <img src="../assets/img/ebook.png" class="img-responsive" alt="e-Book Gratuito!">
-          </div>
-        </div>
+       <div class="col-md-3 hidden-xs hidden-sm">
+                <div class="form" id="news" style="margin-top:1em;">
+                  <h2>e-Book GRATUITO!</h2>
+                  <p>Ter uma equipe alinhados com a cultura da empresa e engajada com a entrega é fundamental. Saiba como no e-book exclusivo que preparamos para você!</p>
+                  <form class="leads">
+                    <input class="form-control" type="text" name="nome" required placeholder="Digite seu nome completo">
+                    <input  class="form-control" type="email" name="email" required placeholder="Digite seu email">
+                    <button type="submit" class="btn-block">Clique e garanta o seu!</button>
+                  </form>
+                  <img src="../assets/img/ebook.png" class="img-responsive" alt="e-Book Gratuito!">
+                </div>
+            </div>
       </div>
     </div>
   </div>
-
   <footer>
     <div class="container-fluid" id="about">
       <div class="row">
         <div class="col-md-6 image">
-          <img src="../assets/img/image 7.png" alt="" class="img-responsive">
+          <img src="../assets/img/image 7.png" alt="Gerenciando Talentos: a ajuda que você precisa para desenvolver e estimular sua equipe!" class="img-responsive">
         </div>
         <div class="col-md-6 preview">
           <h2>Gerenciando Talentos: a ajuda que você precisa para desenvolver e estimular sua equipe! </h2>
-          <p>Nossa proposta é trazer informação de qualidade e insights valiosos para apoiar você no desafio de gerenciar talentos. Sabemos o quanto é difícil selecionar, motivar e reter colaboradores, extraindo da equipe o seu maior potencial. Por isso, assumimos a missão de trazer os conteúdos mais relevantes para fazer a diferença no seu cotidiano e, consequentemente, no resultado da sua empresa.</p>
-          
+                <p>Nossa proposta é trazer informação de qualidade e insights valiosos para apoiar você no desafio de gerenciar talentos. Sabemos o quanto é difícil selecionar, motivar e reter colaboradores, extraindo da equipe o seu maior potencial. Por isso, assumimos a missão de trazer os conteúdos mais relevantes para fazer a diferença no seu cotidiano e, consequentemente, no resultado da sua empresa.</p>
         </div>
       </div>
       <div class="row endpage">
         <div class="col-md-6 logo"><img src="../assets/img/logo.png" alt="Gerenciando talentos"></div>
         <div class="col-md-6 social">
           <ul>
-            <li><a target="_blank"  href="https://www.facebook.com/GerenciandoTalentosBr"><img src="assets/img/fb.png" alt=""/></li>
-            <li><a target="_blank"  href="https://www.linkedin.com/company/gerenciando-talentos/"><img src="assets/img/in.png" alt=""/></li>
-            <li><a target="_blank"  href="https://www.instagram.com/gerenciandotalentos/"><img src="assets/img/it.png" alt=""/></li>
+            <li><a target="_blank"  href="https://www.facebook.com/GerenciandoTalentosBr"><img src="../assets/img/fb.png" alt="Facebook"/></li>
+            <li><a target="_blank"  href="https://www.linkedin.com/company/gerenciando-talentos/"><img src="../assets/img/in.png" alt="Linkedin"/></li>
+            <li><a target="_blank"  href="https://www.instagram.com/gerenciandotalentos/"><img src="../assets/img/it.png" alt="Instagram"/></li>
           </ul>
         </div>
       </div>
     </div>
   </footer>
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
-<script type="text/javascript">
-
-  $(document).ready(function(){
-    $("#leads").submit(function(e){
-        debugger;
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+    $(".leads").submit(function(e){
         e.preventDefault();
       var data = {};
-      data.nome = $("input[name='nome']").val();
-      data.email = $("input[name='email']").val();
+      data.nome = $(this).find("input[name='nome']").val();
+      data.email = $(this).find("input[name='email']").val();
 
       $.ajax({
         method: "POST",
         url: "https://gerenciando-talentos.herokuapp.com/api/createLead",
         data: data
       }).done(function(data) {
-        $("#leads").html("<br/><a href='http://gerenciandotalentos.com.br/public/5-maneiras-de-manter-funcionarios-motivados.pdf' class='link-download' target='_blank'>Baixe seu e-Book!</a>");
-        debugger;
+        $(".leads").html("<a href='http://gerenciandotalentos.com.br/public/5-maneiras-de-manter-funcionarios-motivados.pdf' class='link-download' target='_blank'>Baixe seu e-Book!</a>");
       });
     });
   });
+  </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151097858-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-</script>
+    gtag('config', 'UA-151097858-1');
+  </script>
+
 </body>
 </html>

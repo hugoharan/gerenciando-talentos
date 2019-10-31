@@ -1,0 +1,32 @@
+.banner_posts{
+    background: #E5E5E5;
+    padding: 25px;
+}
+
+#posts .banner_posts .conteudo-posts p{
+    color: #111;
+    line-height: 1.5;
+    font-weight: 400;
+    margin-bottom: 1em;
+    font-size: 1.3em;
+}
+
+#posts .banner_posts .conteudo-posts h2{
+	color: #8200C7;
+	text-align: left;
+	font-weight: 600;
+	margin-bottom: 1em;
+}
+
+#posts .banner_posts .conteudo-posts h3{
+	color: #8200C7;
+	text-align: left;
+	font-weight: 400;
+	margin-bottom: 1em;
+	line-height: 1.5;
+	text-align: center;
+}
+
+#posts .banner_posts .conteudo-posts img{
+	text-align:center;
+}

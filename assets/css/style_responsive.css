@@ -50,6 +50,10 @@
     #about .preview p {
         margin-bottom: 1em;
     }
+
+    #topo-interno h1{
+        font-size: 25px !important;
+    }
 }
 
 @media(min-width:993px )and (max-width: 1280px){
