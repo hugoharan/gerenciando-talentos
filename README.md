@@ -1,1 +1,2 @@
-# tutorial-nodejs-coderules
+Gerenciando Talentos: a ajuda que você precisa para desenvolver e estimular sua equipe!
+Nossa proposta é trazer informação de qualidade e insights valiosos para apoiar você no desafio de gerenciar talentos. Sabemos o quanto é difícil selecionar, motivar e reter colaboradores, extraindo da equipe o seu maior potencial. Por isso, assumimos a missão de trazer os conteúdos mais relevantes para fazer a diferença no seu cotidiano e, consequentemente, no resultado da sua empresa.
